@@ -5,3 +5,5 @@ function tempo (request, response) {
         date: dynamicDate.toGMTString()
     })
 }
+
+export default tempo;
