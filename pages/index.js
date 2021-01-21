@@ -1,8 +1,10 @@
+// import React from 'react';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import GlobalStyle from '../styles/global.ts'
 
 export default function Home() {
-  return (
+  return (<>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -11,12 +13,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Bem vindo ao <a href="#">TimeDev.net!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        Nossa missão é transformar ideias de nossos clientes em soluções personalizadas da tecnologia moderna
+          {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
 
         <div className={styles.grid}>
@@ -61,5 +63,7 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    <GlobalStyle />
+    </>
   )
 }
