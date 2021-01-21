@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function HeadCEO({title}) {
+export default function HeadCEO({title}: any) {
   // console.log(title)
   return (
   <Head>
