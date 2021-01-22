@@ -18,7 +18,7 @@ export default function Home() {
         <Grid>
           <Card>
             <a href="#"><h3>Sobre nós &rarr;</h3></a>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>tesssssssssssssstete tete.</p>
           </Card>
           <Card>
             <a href="#"><h3>Produtos &rarr;</h3></a>
